@@ -1,0 +1,37 @@
+html {
+  background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+  background-attachment: fixed;
+  height: 100%;
+}
+
+body {
+  height: 100%;
+
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+
+  header { grid-row: 1; }
+  main { grid-row: 2; }
+  footer { grid-row: 3; }
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  h1 {
+    font-weight: 100;
+    font-size: 4rem;
+    text-align: center;
+  }
+  img {
+    margin-left: 3em;
+    width: 24em;
+  }
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Alfa Slab One", var(--pico-font-family-sans-serif);
+}

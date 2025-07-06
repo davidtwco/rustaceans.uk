@@ -1,0 +1,14 @@
+base_url = "https://rustaceans.uk"
+
+title = "Rustaceans UK"
+description = "Rust in the UK"
+author = "David Wood"
+default_language = "en"
+
+compile_sass = true
+minify_html = true
+build_search_index = false
+generate_feeds = false
+
+[markdown]
+highlight_code = true

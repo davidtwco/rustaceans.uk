@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="color-scheme" content="light dark">
+
+    <meta name="description" content="{{ config.description }}">
+
+    <meta property="og:title" content="{{ config.title }}" />
+    <meta property="og:description" content="{{ config.description }}" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="{{ config.base_url }}" />
+
+    <link rel="icon" href="favicon.ico" type="image/x-icon"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.classless.min.css">
+    <link rel="stylesheet" href="style/fonts.css"/>
+    <link rel="stylesheet" href="style/app.css"/>
+
+    <title>{{ config.title }}</title>
+  </head>
+  <body>
+    <header>{% block header %}{% endblock header %}</header>
+    <main>{% block main %}{% endblock main %}</main>
+    <footer>{% block footer %}{% endblock footer %}</footer>
+  </body>
+</html>

@@ -1,0 +1,34 @@
+[[meetups]]
+name = "Rust & Friends"
+location = "Edinburgh"
+link = "https://www.meetup.com/rust-edi/"
+
+[[meetups]]
+name = "Rust London User Group"
+location = "London"
+link = "https://www.meetup.com/rust-london-user-group/"
+
+[[meetups]]
+name = "Oxford Rust Meetup Group"
+location = "Oxford"
+link = "https://www.meetup.com/oxford-rust-meetup-group/"
+
+[[meetups]]
+name = "Cambridge Rust Meetup"
+location = "Cambridge"
+link = "https://www.meetup.com/cambridge-rust-meetup/"
+
+[[meetups]]
+name = "Rust Leeds Meetup"
+location = "Leeds"
+link = "https://www.eventbrite.com/e/rust-leeds-meetup-uniting-rustaceans-of-all-levels-tickets-818583203397"
+
+[[meetups]]
+name = "Rust and C++ Cardiff"
+location = "Cardiff"
+link = "https://www.meetup.com/rust-and-c-plus-plus-in-cardiff/"
+
+[[meetups]]
+name = "Rust Manchester"
+location = "Manchester"
+link = "https://www.meetup.com/rust-manchester/"
